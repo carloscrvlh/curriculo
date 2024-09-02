@@ -123,6 +123,7 @@ iframe {
 }
 #formulario input[type=submit] {
     background-color: #fff;
+    color: #17202a;
 }
 #educacao h2 {
     text-align: center;
