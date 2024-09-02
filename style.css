@@ -113,6 +113,7 @@ iframe {
     width: 100%;
     resize: none;
     margin-bottom: 5px;
+    color: #fff;
 }
 #formulario input:focus, #formulario textarea:focus{
     outline: none;
