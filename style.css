@@ -1,0 +1,157 @@
+body {
+    background-color: #1c2833; /* Fundo preto */
+    background-image: linear-gradient(90deg, #566573 0.1%, transparent 0.6%),
+                       linear-gradient(180deg, #566573 0.1%, transparent 0.6%);
+    background-size: 100px 100px;
+    color: #fff;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+/*NAV BAR*/
+nav {
+    display: flex;
+    padding: 20px 0;
+}
+nav ul {
+    margin: 10px;
+}
+nav ul li {
+    display: inline-block;  
+    padding: 0 20px; 
+
+}
+nav ul li a{
+    color: #abb2b9;
+    transition: 0.8s;
+}
+nav ul li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+#logo {
+    font-size: 1.8em;
+}
+nav .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .col, section .col-5 {
+    background-color: #273746;
+    margin: 0 8px 15px 8px;
+    border-radius: 20px;
+    padding: 30px;
+    transition: 0.5s;
+    border: 0.1px solid #2c3e50;
+}
+section .col:hover, section .col-5:hover {
+    background-color: #17202a;
+    -webkit-box-shadow: 0px 0px 17px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 17px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 17px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: inset 0px 0px 17px -10px rgba(5,102,87,1);
+    -moz-box-shadow: inset 0px 0px 17px -10px rgba(5,102,87,1);
+    box-shadow: inset 0px 0px 17px -10px rgba(5,102,87,1)
+}
+img {
+    width: 25%;
+    height: auto;
+    border-radius: 100%;
+}
+#sobre-mim .col-5 div {
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+h1 {
+    font-size: 1.5em;
+}
+#mapa {
+    padding: 0;
+}
+iframe {
+    border-radius: 20px;
+    filter: invert(92%) contrast(80%) hue-rotate(180deg);
+}
+.social {
+    font-size: 3em;
+    text-align: center;
+    background-color: #2c3e50 !important;
+}
+.social a:hover {
+    color: #17202a !important;
+    transition: 0.5s;
+}
+.mode {
+    margin: 0px !important;
+    border: none !important; 
+}
+#habilidades .row .col {
+    padding: 20px;
+    font-size: 3.5em;
+    text-align: center;
+}
+#formulario .col a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #fff;
+}
+#formulario .col {
+    padding:20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+#formulario input, textarea {
+    background-color: #273746;
+    border: 0.1px solid #2c3e50;
+    padding: 5px;
+    width: 100%;
+    resize: none;
+    margin-bottom: 5px;
+}
+#formulario input:focus, #formulario textarea:focus{
+    outline: none;
+}
+#formulario label {
+    color: #abb2b9;
+}
+#formulario input[type=submit] {
+    background-color: #fff;
+}
+#educacao h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#educacao h3 {
+    font-size: 1.4em;
+}
+#educacao h4 {
+    font-size: 1.2em;
+    color: #abb2b9;
+}
+#educacao span {
+    color: #abb2b9;
+    padding-bottom: 20px;
+}
+#educacao hr {
+    background-color: #566573;
+}
+#sobre-mim h5 {
+    text-align: center;
+    padding-bottom: 25px;
+    width: 100%;
+}
+#formulario .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+#formulario form{
+    width: 100%;
+}
